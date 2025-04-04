@@ -1,5 +1,141 @@
 * {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body {
+  line-height: 1.6;
   padding: 0%;
   margin: 0%;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+header {
+  padding-top: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+section {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+button {
+  background-color: #ff6a13;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
   font-family: sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65c00;
+}
+
+.container {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.flex-box {
+  margin: 10px;
+}
+
+.flex-box p {
+  font-size: 1.2rem;
+}
+.flex-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.flex-box img:hover {
+  transform: scale(1.05);
+}
+
+.flex-box p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.latest_blog b {
+  font-size: 1.2rem;
+}
+.latest_blog img {
+  width: 100%;
+  height: auto;
+}
+
+.contact_us_Container {
+  display: flex;
+  border-color: grey;
+}
+
+.contact_us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact_us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.flex {
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="text-area"] {
+  width: 85%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+
+/* Styling for the textarea */
+textarea {
+  width: 85%; /* Make it take the full width of its container */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"] {
+  background-color: #ff6a13; /* Orange color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #e65c00;
+}
+
+footer {
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #333;
 }
